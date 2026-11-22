@@ -1,0 +1,623 @@
+Vector Map Level 0 (DIGITAL CHART OF THE WORLD) METADATA LONG FORM
+
+
+IDENTIFICATION INFORMATION
+
+Citation:
+	Originator: National Imagery and Mapping Agency
+	Publication Date: 200009
+	Title: Vector Map Level 0 (Digital Chart of the World)
+	Edition: 5
+	Geospatial Data Presentation Form: model
+	Publication Information:
+		Publication Place: Bethesda, MD
+		Publisher: National Imagery and Mapping Agency
+		Other Citation Details: NIMA Reference Numbers VMAP0EURNASIA, 
+		VMAP0NOAMER, VMAP0SASAUS, VMAP0SOAMAFR
+
+Description:
+	Abstract: The Vector Map (VMap) Level 0 database represents the 
+fifth edition of the Digital Chart of the World.  The third/fourth edition 
+was published in 199701.  The product is dual named to show its lineage to 
+the original DCW, published in 1992, while positioning the revised product 
+within a broader family of VMap products.  VMap Level 0 (VMap0) is a 
+comprehensive 1:1,000,000 scale vector basemap of the world.  It consists of 
+cartographic, attribute, and textual data stored on compact disc read only 
+memory (CDROM).  The primary source for the database is the National Imagery 
+and Mapping Agency's (NIMA) Operational Navigation Chart (ONC) series.  This 
+is the largest scale unclassified map series in existence that provides 
+consistent, continuous global coverage of essential basemap features. The 
+database contains more than 1,900 megabytes of vector data and is organized 
+into 10 thematic layers.  The data include major road and rail networks, 
+major hydrologic drainage systems, major utility networks (cross-country 
+pipelines and communication lines), all major airports, elevation contours 
+(metric equivalent of 1000 foot (ft), with 500ft and 250ft supplemental 
+contours), coastlines, international and first order boundaries and populated 
+places.  The database can be accessed directly from the four CDROMs that 
+store the database or can be transferred to a magnetic media.  
+
+	Purpose: The VMap0 is a general purpose global database 
+designed to support Geographic Information Systems applications.
+
+Time Period of Content:
+	Time Period Information:
+		Single Date: 200009
+	Currentness Reference: Publication date
+
+Status:
+	Progress: Complete
+	Maintenance and Update Frequency: Biennial
+
+Spatial Domain:
+	Bounding Coordinates:
+		West Bounding Coordinate: -180.0
+		East Bounding Coordinate: 180.0
+		North Bounding Coordinate: 90.0
+		South Bounding Coordinate: -90.0
+
+Keywords: 
+	Theme:
+		Theme Keyword: Vector Map
+		Theme Keyword: VMap
+		Theme Keyword: DCW
+		Theme Keyword: digital global basemap
+		Theme Keyword: GIS database
+		Theme Keyword: Global digital database
+		Theme Keyword: CDROM
+		Theme Keyword: rivers
+		Theme Keyword: roads
+		Theme Keyword: railroads
+		Theme Keyword: international boundaries
+		Theme Keyword: cities
+		Theme Keyword: airports
+		Theme Keyword: elevations
+		Theme Keyword: contours
+		Theme Keyword: coastlines
+		Theme Keyword: populated places
+		Theme Keyword: vegetation
+	Place:
+		Place Keyword Thesaurus: None
+		Place Keyword: global coverage
+		Place Keyword: world coverage
+
+Access Constraints: None
+
+Use Constraints: Cite National Imagery and Mapping Agency
+
+Point of Contact:
+	Contact Organization Primary:
+		Contact Organization: National Imagery and Mapping Agency
+		Contact Position: ATTN: COD, MS P-37
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 4600 Sangamore Road
+				City: Bethesda
+				State: MD
+				Postal Code: 20816-5003
+				Country: US
+		Contact Voice Telephone:
+		Contact Facsimile Telephone:
+		Contact Instructions: Users should refer corrections,  
+		additions, or suggestions for improving this product to 
+		the Contact Organization.
+
+Security Information:
+	Security Classification System: United States Department of Defense
+	Security Classification: Unclassified
+	Security Handling Description: Not Applicable
+
+
+DATA QUALITY INFORMATION
+
+Attribute Accuracy:
+	Attribute Accuracy Report: 100 percent of attribute codes were 
+reviewed against the source manuscripts. No formal effort was undertaken 
+to develop a quantitative attribute accuracy statement.
+
+Logical Consistency Report: All data were found to be topologically correct.
+No duplicate features are present.  All areas are completely described as
+depicted on the source manuscripts.  No undershoots or overshoots are present.
+All data were consistently captured using the rules described in the narrative
+associated with the Data Quality Table and in the various feature table
+narrative files present at the coverage level within the library.
+
+Completeness Report: VMap0 features depicted on the ONC source materials 
+have been captured and have valid attribute codes assigned to them.
+
+Positional Accuracy:
+	Horizontal Positional Accuracy:
+		Horizontal Positional Accuracy Report: The Horizontal  
+	Positional Accuracy Value represents overall accuracy.  Source 
+	chart-specific accuracies are available as area feature attributes 
+	in the VMap0 data quality coverage.  The primary accuracy analysis 
+	was performed on one chart only in the prototyping phase of the 
+	DCW project.
+
+	Quantitative Horizontal Positional Accuracy Assessment:
+		Horizontal Positional Accuracy Value: 2040
+		Horizontal Positional Accuracy Explanation: Detailed 
+	horizontal accuracy figures were developed by comparing the 
+	positions of well-defined points in road, railroad, utility 
+	line, and drainage features against sources of higher accuracy, 
+	measuring the offsets, and expressing differences as a Circular 
+	Map Accuracy figure at a 90% confidence interval.  This figure 
+	was independently verified by adding known production errors to 
+	source chart accuracies in a root sum square calculation.
+
+	Vertical Positional Accuracy:
+		Vertical Positional Accuracy Report: This figure represents 
+	overall accuracy.  Source chart-specific accuracies are available 
+	as area feature attributes in the VMap0 data quality coverage.
+
+	Quantitative Vertical Positional Accuracy Assessment:
+		Vertical Positional Accuracy Value: 152.4
+		Vertical Positional Accuracy Explanation: Vertical accuracy 
+	figures were developed by comparing elevation contour locations on 
+	1:24,000 scale maps to elevation values at the same location within 
+	the digital database.  Some manual interpolation was necessary to 
+	complete this test.  The analysis results are expressed as linear 
+	error at a 90% confidence interval.
+
+Lineage: (Additional lineage data are available in the narrative table
+associated with the Data Quality Table (dqt) called the Lineage Documentation 
+File (lineage.doc).)
+
+	Source Information: 
+		Source Citation:
+			Originator: National Imagery and Mapping Agency
+				Publication Date: See "Source Time Period of 
+				Content"
+				Title: Operational Navigational Chart
+				Geospatial Data Presentation Form: map
+			Publication Information:
+				Publication Place: St.Louis, MO
+				Publisher: National Imagery and Mapping Agency
+		Source Scale Denominator: 1,000,000
+		Source Type of Media: stable-base material
+		Source Time Period of Content:
+			Source Time Period Information:
+				Range of Dates/Times: 
+					Beginning Date: 1974
+					Ending Date: 1994
+				Source Currentness Reference: Publication 
+				dates
+		Source Citation Abbreviation: ONC
+		Source Contribution: All information found on the source with 
+		the exception of aeronautical data
+
+	Process Step:
+		Process Description: For the first edition DCW, stable-based
+positives were produced from the original reproduction negatives (up to 35 per
+ONC sheet) these were digitized either through a scanning-raster to vector
+conversion or hand digitized into vector form.  The vector data were then 
+tagged with attribute information using ARC/INFO software. Transformation to
+geographic coordinates was performed using the projection graticules for each
+sheet. Digital information was edge matched between sheets to create large
+regional datasets. These were then subdivided into 5 x 5 tiles and converted
+from ARC/INFO to VPF.  The data was then pre-mastered for CDROM.  QC was
+performed by a separate group for each step in the production process. For the
+second edition, the DCW database was reprocessed in ARC/INFO for conversion 
+to the VMap Level 0 format.  Updates were digitized from 19 ONC charts which 
+had been revised since production of the first edition DCW.  For edition five 
+the VMap0 data were retiled into two sizes; 15 x 15 for predominately land 
+tiles and 30 x 30 for ocean tiles.
+
+		Process Date: 199112
+		Process Contact: 
+	Contact Organization Primary:
+	Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+		Process Date: 199404
+		Process Contact:
+	Contact Organization Primary:
+	Contact Organization: Geonex
+		Contact Position:
+		Contact Address:
+			Address Type: mailing and physical
+				Address: 8950 North 9th Ave.
+				City: St. Petersburg
+				State: FL
+				Postal Code: 33702 
+				Country: US
+		Contact Voice Telephone: (813) 578-0100
+		Contact Facsimile Telephone: (813) 577-6946
+
+		Process Date: 200009
+		Process Contact:
+	Contact Organization Primary:
+	Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+	Source Information: 
+		Source Citation:
+			Originator: National Imagery and Mapping Agency
+				Publication Date: 200001
+				Title: Digital Aeronautical Flight Information
+				File
+				Geospatial Data Presentation Form: model
+			Publication Information:
+				Publication Place: St. Louis, MO
+				Publisher: National Imagery and Mapping Agency
+		Source Type of Media: CDROM
+		Source Time Period of Content:
+			Source Time Period Information:
+				Single Dates/Times: 
+					Calender Date: 2000
+		Source Currentness Reference: Publication date
+		Source Citation Abbreviation: DAFIF
+		Source Contribution: Airport records (name, ICAO, position, 
+		elevation, and type)
+
+	Process Step:
+		Process Description: Transferred digitally directly into the  
+		VPF files.
+
+		Process Date: 199408
+		Process Contact: 
+	Contact Organization Primary:
+	Contact Organization: Geonex
+		Contact Position: 
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 8950 North 9th Ave.
+				City: St. Petersburg
+				State: FL
+				Postal Code: 33702 
+				Country: US
+		Contact Voice Telephone: 813-578-0100
+		Contact Facsimile Telephone: 813-577-6946
+
+		Process Date: 200009
+		Process Contact: 
+	Contact Organization Primary:
+	Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+	Source Information: 
+		Source Citation:
+			Originator: National Imagery and Mapping Agency
+				Publication Date: See "Source Time Period of 
+				Content"
+				Title: Jet Navigational Chart
+				Geospatial Data Presentation Form: map
+			Series Information:
+			Publication Information:
+				Publication Place: St. Louis, MO
+				Publisher: National Imagery and Mapping Agency
+		Source Scale Denominator: 2,000,000
+		Source Type of Media: stable-base material
+		Source Time Period of Content:
+			Source Time Period Information:
+				Range of Dates/Times: 
+					Beginning Date: 1974
+					Ending Date: 1991
+				Source Currentness Reference: Publication date
+		Source Citation Abbreviation: JNC
+		Source Contribution: All information found on the source with 
+		the exception of aeronautical data.  JNCs were used as source 
+		for the Antarctica region only.
+
+	Process Step:
+		Process Description: Stable-based positives were produced 
+from the original reproduction negatives (up to 35 per ONC sheet) and 
+digitized either through a scanning-raster to vector conversion or hand 
+digitized into vector form.  The vector data were then tagged with attribute 
+information using ARC/INFO software. Transformation to geographic coordinates 
+was performed using the projection graticules for each sheet. Digital 
+information was edge matched between sheets to create large regional datasets.
+These were then subdivided into 15 x 15 and 30 x 30 tiles and converted from 
+ARC/INFO to VPF.  The data were then pre-mastered for CDROM.  QC was performed
+by a separate group for each step in the production process.
+
+		Process Date: 199112
+		Process Contact: 
+	Contact Organization Primary:
+		Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+	Source Information: 
+		Source Citation:
+			Originator: USGS EROS Data Center
+				Publication Date: 
+				Title: Advance Very High Resolution Radiometer
+				Geospatial Data Presentation Form: remote 
+				sensing image
+			Publication Information:
+				Publication Place: Sioux Falls, SD
+				Publisher: EROS Data Center
+		Source Scale Denominator: 1,000,000
+		Source Type of Media: digital file
+		Source Time Period of Content:
+			Source Time Period Information:
+				Range of Dates/Times: 
+					Beginning Date: 199204
+					Ending Date: 199303
+				Source Currentness Reference: Publication date
+		Source Citation Abbreviation: AVHRR
+		Source Contribution: vegetation coverage
+
+	Process Step:
+		Process Description: Daily AVHRR images were averaged for a 
+two week time period.  These averaged images, their rates of change, elevation
+information, and other data were used to produce a single land classification
+image of the whole world.
+		Process Date: 199402
+		Source Produced Citation Abbreviation: EROS data
+		Process Contact: 
+	Contact Organization Primary:
+		Contact Organization: USGS Eros Data Center
+		Contact Position:
+		Contact Address: 
+			Address Type: mailing and physical
+				Address:
+				City: Sioux Falls
+				State: SD
+				Postal Code:
+				Country: US
+		Contact Voice Telephone:
+		Contact Facsimile Telephone:
+
+	Process Step: 
+		Process Description: The Eros data (raster files) were 
+converted to vector polygon, splined (remove stairstepping), thinned (all 
+polygons under 4 sq. km. were deleted), and intergrated with other coverage's 
+polygons (water bodies, built-up areas). The vegetation polygons were clipped 
+to ensure integration with VMap0 coastline.  The resulting file was tiled and 
+converted to a VPF Vegetation coverage for use in the VMap0 Edition 5.  All 
+processing was performed using ARC/INFO software.
+		Process Date: 200003
+		Source Produced Citation Abbreviation: VMap0 Vegetation 
+		Coverage
+		Process Contact: 
+	Contact Organization Primary:
+		Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+	Source Information: 
+		Source Citation:
+			Originator: National Imagery and Mapping Agency
+				Publication Date: 199904
+				Title: GeoNet Names Server (GNS)
+				Geospatial Data Presentation Form: model
+			Publication Information:
+				Publication Place: St. Louis, MO
+				Publisher: National Imagery and Mapping Agency
+		Source Type of Media: CDROM
+		Source Time Period of Content:
+			Source Time Period Information:
+				Single Dates/Times: 
+					Calender Date: 1999
+				Source Currentness Reference: Publication date
+		Source Citation Abbreviation: GNS
+		Source Contribution: Some names for the Hydrography and 
+		Population Coverages
+
+	Process Step:
+		Process Description: Using an overlay and/or buffer process, 
+names from the GNS database were assigned to the VMap 0 populated place 
+polygon features.  In situations where variant spellings were present, the 
+names were assigned based on name type. The order of precedence for name type 
+was conventional, native, and unverified.
+		Process Date: 200003
+		Process Contact: 
+	Contact Organization Primary:
+		Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+	Source Information: 
+		Source Citation:
+			Originator: Environmental Systems Research Institute
+				Publication Date: 199201
+				Title: ArcWorld
+				Geospatial Data Presentation Form: model
+			Publication Information:
+				Publication Place: Redlands, CA
+				Publisher: Environmental Systems Research 
+				Institute
+		Source Type of Media: CDROM
+		Source Time Period of Content:
+			Source Time Period Information:
+				Single Dates/Times: 
+					Calender Date: 1999
+				Source Currentness Reference: Publication date
+		Source Citation Abbreviation: ArcWorld
+		Source Contribution: First Order Administrative Areas in 
+		the Boundaries Coverage
+
+	Process Step:
+		Process Description: Used to add first order administrative 
+boundaries to the database. 
+		Process Date: 200001
+		Process Contact: 
+	Contact Organization Primary:
+		Contact Organization: Environmental Systems Research Institute
+		Contact Position: Applications Division
+		Contact Address: 
+			Address Type: mailing and physical
+				Address: 380 New York St.
+				City: Redlands
+				State: CA
+				Postal Code: 92373
+				Country: US
+		Contact Voice Telephone: 909-793-2853
+		Contact Facsimile Telephone: 909-793-5953
+
+
+SPATIAL DATA ORGANIZATION INFORMATION
+
+Direct Spatial Reference Method: Vector
+	Point and Vector Object Information:
+		VPF Terms Description:
+			VPF Topology Level: 3
+				VPF Point and Vector Object Type: node, edge, 
+				face
+
+
+SPATIAL REFERENCE INFORMATION:
+
+Horizontal Coordinate System:
+	Horizontal Coordinate System Definition:
+		Geographic:
+			Latitude Resolution: .000001
+			Longitude Resolution: .000001
+			Geographic Coordinate Units: Decimal degrees
+			Geodetic Model:
+				Horizontal Datum Name: WGS 84
+				Ellipsoid Name: WGS 84
+				Semi-major Axis: 6378137
+				Denominator of Flattening Ratio: 298.257223563
+	Vertical Coordinate System:
+		Altitude System Definition:
+			Altitude Datum Name: Mean Sea Level
+			Altitude Distance Units: 1.0
+			Altitude Encoding Methods: meters
+
+
+ENTITY AND ATTRIBUTE INFORMATION
+
+Overview Description:
+	Entity and Attribute Overview: The DCW used a product-specific 
+attribute coding system that was composed of TYPE and STATUS designators for 
+area, line, and point features; and LEVEL and SYMBOL designators for text 
+features.  The TYPE attribute specifies what the feature is, while the 
+STATUS attribute specifies the current condition of the feature.  Some 
+features require both a TYPE and STATUS code to uniquely identify their 
+characteristics.  In order to uniquely identify each geographic attribute 
+in the DCW, the TYPE and STATUS attribute code names were preceded by the two 
+letter coverage abbreviation and a two letter abbreviation for the type of 
+graphic primitive present.  VMap0 data is attribute coded in accordance with 
+Feature and Attribute Coding Catalog (FACC).  The DCW Type/Status codes were 
+mapped into the FACC coding scheme.  A full description of FACC may be found 
+in Digital Geographic Information Exchange Standard Edition 1.2, January 1994.
+	Entity and Attribute Detail Citation: Entities (features) and 
+Attributes for DCW are fully described in: Department of Defense, 1992, 
+Military Specification Digital Chart of the World (MIL-D-89009): Philadelphia,
+Department of Defense, Defense Printing Service Detachment Office.  VMap0 is
+described in:  Department of Defense, Military Specification, Vector Map 
+(VMap) Level 0 (MIL-V-89039), 9 Feb 1995.
+
+
+DISTRIBUTION INFORMATION
+
+Distributor:
+	Contact Information:
+		Contact Organization: NIMA 
+				Contact Position: ATTN: COD, MS PS-37
+				Contact Address: 
+					Address Type: mailing and physical 
+						Address: 4600 Sangamore Road
+						City: Bethesda
+						State: MD
+						Postal Code: 20816-5003
+						Country: US
+		Contact Voice Telephone: 1-800-455-0899
+		Contact Facsimile Telephone:
+Resource Description:  NIMA Reference Numbers VMAP0EURNASIA, VMAP0NOAMER, 
+		VMAP0SASAUS, VMAP0SOAMAFR
+Distribution Liability: None 
+Standard Order Process: 
+	Digital Form:
+		Digital Transfer Information:
+			Format Version Name: Vector Product Format
+				Format Version Date: 19960628
+				Format Specification: Military Standard Vector
+				Product Format (MIL-STD-2407).
+			Digital Transfer Option:
+				Offline Option: 
+					Offline Media: CDROM
+					Recording Format: ISO 9660
+	Fees: Not Applicable
+	Ordering Instructions: must have customer account number
+
+Distributor:
+	Contact Information:
+		Contact Organization: USGS - Information Services
+				Contact Address: 
+					Address Type: mailing
+						Address: Box 25286
+						City: Denver
+						State: CO
+						Postal Code: 80225
+						Country: US
+		Contact Voice Telephone: 303-236-7477
+		Contact Facsimile Telephone: 303-236-1972
+	Fees: $100.00 per 4-disk set (Subject to change without notification.)
+	Ordering Instructions: Payment (check, money order, purchase order, 
+or Government account) must accompany order.  Make all drafts payable to 
+Dept. of the Interior - US Geological Survey.
+
+
+METADATA REFERENCE INFORMATION
+
+Metadata Date: 20000930
+
+Metadata Contact:
+	Contact Organization: National Imagery and Mapping Agency
+		Contact Position: ATTN: COD, MS PS-37
+		Contact Address: 
+			Address Type: mailing and physical 
+				Address: 4600 Sangamore Road
+				City: Bethesda
+				State: MD
+				Postal Code: 20816-5003
+				Country: US
+		Contact Voice Telephone:
+		Contact Facsimile Telephone:
+Metadata Standard Name: Federal Geographic Data Committee Content 
+Standard for Spatial Metadata
+Metadata Standard Version: 19980601

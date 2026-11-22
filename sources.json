@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "repository": "marutan/terrasoar-packs-sources",
+  "releases": [
+    {
+      "release": "gshhg-2.3.7",
+      "title": "GSHHG 2.3.7 (Global Self-consistent, Hierarchical, High-resolution Geography Database), shapefiles",
+      "publisher": "Paul Wessel (University of Hawaii) and Walter H. F. Smith (NOAA)",
+      "page": "https://www.soest.hawaii.edu/pwessel/gshhg/",
+      "licence": "LGPL-3.0-or-later",
+      "credit": "Shoreline: GSHHG 2.3.7, P. Wessel and W. H. F. Smith (LGPL)",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "LICENSE.TXT",
+        "COPYING.LESSERv3",
+        "gpl-3.0.txt",
+        "README.TXT"
+      ],
+      "files": [
+        {
+          "file": "gshhg-shp-2.3.7.zip",
+          "bytes": 149157845,
+          "sha256": "8dbbe7e071e77e9e75f2d639239099ebca8d5c16d6a07df8169729d49f15cf41",
+          "upstream": "https://github.com/GenericMappingTools/gshhg-gmt/releases/download/2.3.7/gshhg-shp-2.3.7.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gshhg-2.3.7/gshhg-shp-2.3.7.zip",
+          "name": "GSHHG (Global Self-consistent, Hierarchical, High-resolution Geography Database), shapefiles",
+          "version": "2.3.7",
+          "packs": [
+            "shoreline-full",
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "bmng-2004-07-full",
+      "title": "Blue Marble Next Generation with topography and bathymetry, July 2004, 21600 × 10800 pixels",
+      "publisher": "NASA Earth Observatory (Reto Stöckli and others)",
+      "page": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/",
+      "licence": "Public domain (NASA); credit requested",
+      "credit": "Blue Marble: NASA Earth Observatory",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "world.topo.bathy.200407.3x21600x10800.jpg",
+          "bytes": 27201049,
+          "sha256": "d225f1f35a6448a4d1d8f6de6e48f3433e470085b70a35800e64f384f269a7b0",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/july/world.topo.bathy.200407.3x21600x10800.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-07-full/world.topo.bathy.200407.3x21600x10800.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry",
+          "version": "2004-07",
+          "packs": [
+            "bluemarble-full",
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "bmng-2004-monthly",
+      "title": "Blue Marble Next Generation with topography and bathymetry, each month of 2004, 5400 × 2700 pixels",
+      "publisher": "NASA Earth Observatory (Reto Stöckli and others)",
+      "page": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/",
+      "licence": "Public domain (NASA); credit requested",
+      "credit": "Blue Marble: NASA Earth Observatory",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "world.topo.bathy.200401.3x5400x2700.jpg",
+          "bytes": 2571926,
+          "sha256": "1684c4f8f51970dcb4a7451302bf3be17bed657aed9fece6f80d7b191e8afa3d",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/january/world.topo.bathy.200401.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200401.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, January 2004",
+          "version": "2004-01",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200402.3x5400x2700.jpg",
+          "bytes": 2553992,
+          "sha256": "9ec9b87ea351c354f18997e252497f1f207041dee4ab90b24839b63ab90afb24",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/february/world.topo.bathy.200402.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200402.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, February 2004",
+          "version": "2004-02",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200403.3x5400x2700.jpg",
+          "bytes": 2522112,
+          "sha256": "1df1a3ff1067a5ccf99031280f77acc3fff4dab202b18b6b2c7f913a9a78a0a4",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/march/world.topo.bathy.200403.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200403.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, March 2004",
+          "version": "2004-03",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200404.3x5400x2700.jpg",
+          "bytes": 2467601,
+          "sha256": "859a6aa3055f97bd28b4190a0cf3f0e9377111cc971985fb087d6a4211d94ce3",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/april/world.topo.bathy.200404.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200404.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, April 2004",
+          "version": "2004-04",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200405.3x5400x2700.jpg",
+          "bytes": 2430267,
+          "sha256": "04310dba908ab5e24bf73fbd3ef0be01bb1b820c76ae05ad7489b81a714c69a1",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/may/world.topo.bathy.200405.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200405.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, May 2004",
+          "version": "2004-05",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200406.3x5400x2700.jpg",
+          "bytes": 2383580,
+          "sha256": "d37ab2654ce7181cf869455bb7cb8dbad9edc2075a0751d030544f90c55b4d37",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/june/world.topo.bathy.200406.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200406.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, June 2004",
+          "version": "2004-06",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200407.3x5400x2700.jpg",
+          "bytes": 2308798,
+          "sha256": "4f4240673a3a1b173d61b92ca4b07bac5fd17059ea5f725ba6da5a9c5386b7ba",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/july/world.topo.bathy.200407.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200407.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, July 2004",
+          "version": "2004-07",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200408.3x5400x2700.jpg",
+          "bytes": 2308163,
+          "sha256": "f76d7b94445e8975a755c849ddaa93ed07b7e01118fb0b7e6bc5546a68c18d5c",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/august/world.topo.bathy.200408.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200408.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, August 2004",
+          "version": "2004-08",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200409.3x5400x2700.jpg",
+          "bytes": 2402871,
+          "sha256": "4c6723e79dc7c1bdb8c193cdf8f946b10b9407bc9fd1164cdf5e75d0aa79ad3b",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/september/world.topo.bathy.200409.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200409.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, September 2004",
+          "version": "2004-09",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200410.3x5400x2700.jpg",
+          "bytes": 2459484,
+          "sha256": "f9ad745c780281dbfdda9769f10b161aacb0a03c83888ab24d4be16575aa4a7c",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/october/world.topo.bathy.200410.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200410.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, October 2004",
+          "version": "2004-10",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200411.3x5400x2700.jpg",
+          "bytes": 2540426,
+          "sha256": "388422e3bfc62517af2a9d538989a2f859fc193e6f6cde72c3d230ef29c2e69f",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/november/world.topo.bathy.200411.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200411.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, November 2004",
+          "version": "2004-11",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        },
+        {
+          "file": "world.topo.bathy.200412.3x5400x2700.jpg",
+          "bytes": 2566770,
+          "sha256": "a9f0088972dee0254610af851c4d6838ca3f2cf79176987e0a5713e2c15ec042",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/december/world.topo.bathy.200412.3x5400x2700.jpg",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/bmng-2004-monthly/world.topo.bathy.200412.3x5400x2700.jpg",
+          "name": "Blue Marble Next Generation with topography and bathymetry, December 2004",
+          "version": "2004-12",
+          "packs": [
+            "bluemarble-monthly"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "naturalearth-admin0-countries-5.1.2",
+      "title": "Natural Earth 1:10m Cultural Vectors, Admin 0 – Countries, version 5.1.2 (GeoJSON)",
+      "publisher": "Natural Earth (naturalearthdata.com)",
+      "page": "https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2",
+      "licence": "Public domain",
+      "credit": "Countries: Made with Natural Earth",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "ne_10m_admin_0_countries-5.1.2.geojson",
+          "bytes": 13287234,
+          "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_countries.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-admin0-countries-5.1.2/ne_10m_admin_0_countries-5.1.2.geojson",
+          "name": "Natural Earth 1:10m Cultural Vectors, Admin 0 – Countries",
+          "version": "5.1.2",
+          "packs": [
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "etopo-2022-v1-60s-surface",
+      "title": "ETOPO 2022 Global Relief Model, version 1, 60 arc-second, surface elevation (GeoTIFF)",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "page": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+      "licence": "CC0-1.0 (NOAA)",
+      "credit": "Elevation: ETOPO 2022, NOAA NCEI",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "ETOPO_2022_v1_60s_N90W180_surface.tif",
+          "bytes": 465969062,
+          "sha256": "9d27d4b8ea8e76977e2988bca667d7c8fa68b927355feffcddd6b4875a7fd08e",
+          "upstream": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/60s/60s_surface_elev_gtif/ETOPO_2022_v1_60s_N90W180_surface.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/etopo-2022-v1-60s-surface/ETOPO_2022_v1_60s_N90W180_surface.tif",
+          "name": "ETOPO 2022 Global Relief Model, 60 arc-second, surface elevation",
+          "version": "2022 v1",
+          "packs": [
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "egm2008-2.5min",
+      "title": "EGM2008 geoid undulation grid, 2.5 arc-minute, as distributed by PROJ (PROJ-data, us_nga)",
+      "publisher": "US National Geospatial-Intelligence Agency; grid converted by PROJ",
+      "page": "https://cdn.proj.org/",
+      "licence": "Public domain",
+      "credit": "Geoid: EGM2008, NGA",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "us_nga_README.txt"
+      ],
+      "files": [
+        {
+          "file": "us_nga_egm08_25.tif",
+          "bytes": 80585622,
+          "sha256": "4191d471eefebf24091b56dbc604353cb3b8cf8cc70e448bb9ae56a272bef17a",
+          "upstream": "https://cdn.proj.org/us_nga_egm08_25.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/egm2008-2.5min/us_nga_egm08_25.tif",
+          "name": "EGM2008 geoid undulation grid, 2.5 arc-minute (PROJ data)",
+          "version": "2008",
+          "packs": [
+            "geoid-egm2008-fine",
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "egm96-15min",
+      "title": "EGM96 geoid undulation grid, 15 arc-minute, as distributed by PROJ (PROJ-data, us_nga)",
+      "publisher": "US National Geospatial-Intelligence Agency; grid converted by PROJ",
+      "page": "https://cdn.proj.org/",
+      "licence": "Public domain",
+      "credit": "Geoid: EGM96, NGA",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "us_nga_README.txt"
+      ],
+      "files": [
+        {
+          "file": "us_nga_egm96_15.tif",
+          "bytes": 2710815,
+          "sha256": "db493027562c9b004d7220fa881f5603adada4e1c5029b933fa7de4547b0e78d",
+          "upstream": "https://cdn.proj.org/us_nga_egm96_15.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/egm96-15min/us_nga_egm96_15.tif",
+          "name": "EGM96 geoid undulation grid, 15 arc-minute (PROJ data)",
+          "version": "1996",
+          "packs": [
+            "terrasoar-base"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "uk-os-osgm15-ostn15",
+      "title": "OSGM15 geoid (ODN height, Great Britain) and OSTN15 (OSGB36 to ETRS89, NTv2), as distributed by PROJ (PROJ-data, uk_os)",
+      "publisher": "Ordnance Survey; grids converted by PROJ",
+      "page": "https://cdn.proj.org/",
+      "licence": "BSD-2-Clause (Ordnance Survey)",
+      "credit": "OSGM15: Ordnance Survey; OSTN15: Ordnance Survey",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "uk_os_README.txt",
+        "bsd-2-clause.txt"
+      ],
+      "files": [
+        {
+          "file": "uk_os_OSGM15_GB.tif",
+          "bytes": 1540925,
+          "sha256": "bf0ac81f1c0c33332693d7d606f335b793c3c2995b8e69eeb1350bd94adcde3b",
+          "upstream": "https://cdn.proj.org/uk_os_OSGM15_GB.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/uk-os-osgm15-ostn15/uk_os_OSGM15_GB.tif",
+          "name": "OSGM15 geoid model, ODN height (Ordnance Survey, as distributed by PROJ)",
+          "version": "2015",
+          "packs": [
+            "geoid-osgm15"
+          ]
+        },
+        {
+          "file": "uk_os_OSTN15_NTv2_OSGBtoETRS.tif",
+          "bytes": 3035814,
+          "sha256": "5d6ed64d2119952c4c559fa1fccbc594b6520fc3ec3ef2fc10be13202c4384fa",
+          "upstream": "https://cdn.proj.org/uk_os_OSTN15_NTv2_OSGBtoETRS.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/uk-os-osgm15-ostn15/uk_os_OSTN15_NTv2_OSGBtoETRS.tif",
+          "name": "OSTN15 OSGB36 to ETRS89 transformation, NTv2 form (Ordnance Survey, as distributed by PROJ)",
+          "version": "2015",
+          "packs": [
+            "geoid-osgm15"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "vmap0-5.0",
+      "title": "Vector Map Level 0 (VMAP0), edition 5 (2000): the four libraries NOAMER, EURNASIA, SOAMAFR and SASAUS, as zips",
+      "publisher": "National Imagery and Mapping Agency, now the National Geospatial-Intelligence Agency (NGA); copy kept by the University of Minnesota",
+      "page": "https://geo.lib.umn.edu/gisdata/vmap0/",
+      "licence": "US government work (NGA), releasability UNRESTRICTED; ESRI's features under the ESRI Data License Agreement (internal or non-commercial use only)",
+      "credit": "Vector Map Level 0 (VMAP0), NGA",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "README1-noamer.TXT",
+        "README1-eurnasia.TXT",
+        "README1-soamafr.TXT",
+        "README1-sasaus.TXT",
+        "FGDC_DAT.TXT",
+        "vmap0.txt"
+      ],
+      "files": [
+        {
+          "file": "vmap0-eurnasia.zip",
+          "bytes": 250227318,
+          "sha256": "bd2cad4328851023ede844c4e125ca1e0de10c2813c3d0c07ada25023b55e8f0",
+          "upstream": "https://geo.lib.umn.edu/gisdata/vmap0/eurnasia.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/vmap0-5.0/vmap0-eurnasia.zip",
+          "name": "Vector Map Level 0 (VMAP0) edition 5, library EURNASIA (Europe and North Asia)",
+          "version": "5.0",
+          "packs": [
+            "vmap0-admin",
+            "vmap0-boundaries",
+            "vmap0-elevation-eurnasia",
+            "vmap0-hydrography-eurnasia",
+            "vmap0-other",
+            "vmap0-population",
+            "vmap0-transportation",
+            "vmap0-vegetation-eurnasia"
+          ]
+        },
+        {
+          "file": "vmap0-noamer.zip",
+          "bytes": 256476180,
+          "sha256": "45241a1fb60d97eff7f69f7af836275440cc4dae0d8caeca3684b7d3f5dedd94",
+          "upstream": "https://geo.lib.umn.edu/gisdata/vmap0/noamer.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/vmap0-5.0/vmap0-noamer.zip",
+          "name": "Vector Map Level 0 (VMAP0) edition 5, library NOAMER (North America)",
+          "version": "5.0",
+          "packs": [
+            "vmap0-admin",
+            "vmap0-boundaries",
+            "vmap0-elevation-noamer",
+            "vmap0-hydrography-noamer",
+            "vmap0-other",
+            "vmap0-population",
+            "vmap0-transportation",
+            "vmap0-vegetation-noamer"
+          ]
+        },
+        {
+          "file": "vmap0-sasaus.zip",
+          "bytes": 238665319,
+          "sha256": "b1af09093af52aa9d92edd91465f6311f28d94c7ef4d3b9b4e438a2ed337fbef",
+          "upstream": "https://geo.lib.umn.edu/gisdata/vmap0/sasaus.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/vmap0-5.0/vmap0-sasaus.zip",
+          "name": "Vector Map Level 0 (VMAP0) edition 5, library SASAUS (South Asia and Australia)",
+          "version": "5.0",
+          "packs": [
+            "vmap0-admin",
+            "vmap0-boundaries",
+            "vmap0-elevation-sasaus",
+            "vmap0-hydrography-sasaus",
+            "vmap0-other",
+            "vmap0-population",
+            "vmap0-transportation",
+            "vmap0-vegetation-sasaus"
+          ]
+        },
+        {
+          "file": "vmap0-soamafr.zip",
+          "bytes": 175433948,
+          "sha256": "41367cbb4bbd875a2cd9361cd15a45cc031d4c03c238596c0b1ae4510f69d0fe",
+          "upstream": "https://geo.lib.umn.edu/gisdata/vmap0/soamafr.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/vmap0-5.0/vmap0-soamafr.zip",
+          "name": "Vector Map Level 0 (VMAP0) edition 5, library SOAMAFR (South America, Africa and Antarctica)",
+          "version": "5.0",
+          "packs": [
+            "vmap0-admin",
+            "vmap0-boundaries",
+            "vmap0-elevation-soamafr",
+            "vmap0-hydrography-soamafr",
+            "vmap0-other",
+            "vmap0-population",
+            "vmap0-transportation",
+            "vmap0-vegetation-soamafr"
+          ]
+        }
+      ]
+    }
+  ]
+}
