@@ -455,6 +455,306 @@
           ]
         }
       ]
+    },
+    {
+      "release": "naturalearth-10m-vectors-5.1.2",
+      "title": "Natural Earth 1:10m vector themes, version 5.1.2 (GeoJSON): rivers and lake centrelines, lakes, populated places, roads, railroads, airports, ports, time zones, state and province boundary lines, and elevation points",
+      "publisher": "Natural Earth (naturalearthdata.com)",
+      "page": "https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2",
+      "licence": "Public domain",
+      "credit": "Made with Natural Earth",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "ne_10m_admin_1_states_provinces_lines-5.1.2.geojson",
+          "bytes": 21092537,
+          "sha256": "1a1f30ccaaf4cc9c4bde34266f0b8cbb955d3a4cf254b756912255f2ec7c75b6",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces_lines.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_admin_1_states_provinces_lines-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_admin_1_states_provinces_lines (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_airports-5.1.2.geojson",
+          "bytes": 1217477,
+          "sha256": "28892a892f670f1cf654c62253c6169fdc2504b92c956addb4ac8224f50cebe0",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_airports.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_airports-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_airports (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_geography_regions_elevation_points-5.1.2.geojson",
+          "bytes": 862686,
+          "sha256": "f98a16867867146ec4146d6d4b18c823eeedb2825947de666116cf9a4e3f43cb",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_geography_regions_elevation_points.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_geography_regions_elevation_points-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_geography_regions_elevation_points (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_lakes-5.1.2.geojson",
+          "bytes": 5043554,
+          "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_lakes.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_lakes-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_lakes (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_populated_places-5.1.2.geojson",
+          "bytes": 19359003,
+          "sha256": "9b8e3de09048ef00dfc70357dbb9fa324493f214b5e0ae4daf1aa79a8d10116b",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_populated_places.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_populated_places-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_populated_places (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_ports-5.1.2.geojson",
+          "bytes": 279075,
+          "sha256": "c5a5028f5187a5e1b9fe7f0fab99804a8be7482099a2365d404fb7e9dd6b5457",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_ports.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_ports-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_ports (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_railroads-5.1.2.geojson",
+          "bytes": 39598080,
+          "sha256": "a0962d7866060ae3e24df255f6d662389ac9ba7e0df40cf329c2281190b861e6",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_railroads.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_railroads-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_railroads (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_rivers_lake_centerlines-5.1.2.geojson",
+          "bytes": 7307743,
+          "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_rivers_lake_centerlines.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_rivers_lake_centerlines-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_rivers_lake_centerlines (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_roads-5.1.2.geojson",
+          "bytes": 50474096,
+          "sha256": "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_roads.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_roads-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_roads (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        },
+        {
+          "file": "ne_10m_time_zones-5.1.2.geojson",
+          "bytes": 3527701,
+          "sha256": "aa52ab97e5f906693f31fe2e625c9d6be78a4e74fcd4142a7261235b355cacfe",
+          "upstream": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_time_zones.geojson",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-vectors-5.1.2/ne_10m_time_zones-5.1.2.geojson",
+          "name": "Natural Earth 1:10m, ne_10m_time_zones (GeoJSON)",
+          "version": "5.1.2",
+          "packs": [
+            "naturalearth-10m"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "naturalearth-10m-rasters-2.0.0",
+      "title": "Natural Earth 1:10m raster maps, version 2.0.0, high resolution (21600 × 10800): Natural Earth I with shaded relief and water, cross-blended hypsometric tints with shaded relief and ocean bottom, and grey shaded relief",
+      "publisher": "Natural Earth (Tom Patterson)",
+      "page": "https://www.naturalearthdata.com/downloads/10m-raster-data/",
+      "licence": "Public domain",
+      "credit": "Made with Natural Earth",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "NE1_HR_LC_SR_W_DR.zip",
+          "bytes": 324320812,
+          "sha256": "8841d08155415f0556462846dcb845a4ccb8f12390b0e0ba36ffde55efadeb56",
+          "upstream": "https://naciscdn.org/naturalearth/10m/raster/NE1_HR_LC_SR_W_DR.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-rasters-2.0.0/NE1_HR_LC_SR_W_DR.zip",
+          "name": "Natural Earth 1:10m raster NE1_HR_LC_SR_W_DR",
+          "version": "2.0.0",
+          "packs": [
+            "naturalearth-relief"
+          ]
+        },
+        {
+          "file": "HYP_HR_SR_OB_DR.zip",
+          "bytes": 404291730,
+          "sha256": "ee2cbbf5b682e8514374c0c318bbf49aa640ecfe60d0a2e09a90e0c575d30a78",
+          "upstream": "https://naciscdn.org/naturalearth/10m/raster/HYP_HR_SR_OB_DR.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-rasters-2.0.0/HYP_HR_SR_OB_DR.zip",
+          "name": "Natural Earth 1:10m raster HYP_HR_SR_OB_DR",
+          "version": "2.0.0",
+          "packs": [
+            "naturalearth-hypsometric"
+          ]
+        },
+        {
+          "file": "SR_HR.zip",
+          "bytes": 44367365,
+          "sha256": "b2619fff2fc73c17152983c066adfaa25c4b626916b822bad2fae8bcd9be41a5",
+          "upstream": "https://naciscdn.org/naturalearth/10m/raster/SR_HR.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/naturalearth-10m-rasters-2.0.0/SR_HR.zip",
+          "name": "Natural Earth 1:10m raster SR_HR",
+          "version": "2.0.0",
+          "packs": [
+            "naturalearth-shaded-relief"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "blackmarble-3km-2012-2016",
+      "title": "Black Marble, the Earth at night, global at 3 km (13500 × 6750, GeoTIFF): 2012, and the 2016 reprocessing",
+      "publisher": "NASA Earth Observatory; Suomi NPP VIIRS data",
+      "page": "https://science.nasa.gov/earth/earth-observatory/earth-at-night/maps/",
+      "licence": "Public domain (NASA); credit requested",
+      "credit": "Black Marble: NASA Earth Observatory",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "BlackMarble_2012_3km_geo.tif",
+          "bytes": 64266092,
+          "sha256": "e77d333de16835ab7abbdb3ee67c199de277faf48037dc50552d8e67dfd6897e",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/144000/144875/BlackMarble_2012_3km_geo.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/blackmarble-3km-2012-2016/BlackMarble_2012_3km_geo.tif",
+          "name": "Black Marble 2012, global, 3 km (13500 × 6750)",
+          "version": "2012",
+          "packs": [
+            "blackmarble"
+          ]
+        },
+        {
+          "file": "BlackMarble_2016_3km_geo.tif",
+          "bytes": 64383740,
+          "sha256": "e915ef2a20d84e2a59e1547d3ad564463ad4bcf22bfa02e0e0b8ed1cd722e9c0",
+          "upstream": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/144000/144898/BlackMarble_2016_3km_geo.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/blackmarble-3km-2012-2016/BlackMarble_2016_3km_geo.tif",
+          "name": "Black Marble 2016, global, 3 km (13500 × 6750)",
+          "version": "2016",
+          "packs": [
+            "blackmarble"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "ourairports-2026-11-22",
+      "title": "OurAirports airports, runways and navigation aids (CSV), as of 2026-11-22 (commit aaf2fe2 of ourairports-data)",
+      "publisher": "OurAirports (David Megginson and contributors)",
+      "page": "https://ourairports.com/data/",
+      "licence": "Public domain (the Unlicense)",
+      "credit": "Airports: OurAirports",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md",
+        "ourairports-LICENSE-2026-11-22.txt"
+      ],
+      "files": [
+        {
+          "file": "ourairports-airports-2026-11-22.csv",
+          "bytes": 12762265,
+          "sha256": "60259f22797bf86a11e7ad2e074a91c97cf0e9b5e3ae899f4796ecc15a96e1ee",
+          "upstream": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/aaf2fe210c52ac2ff42e64f75b5f051759c61d50/airports.csv",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/ourairports-2026-11-22/ourairports-airports-2026-11-22.csv",
+          "name": "OurAirports airports.csv",
+          "version": "2026-11-22",
+          "packs": [
+            "ourairports"
+          ]
+        },
+        {
+          "file": "ourairports-runways-2026-11-22.csv",
+          "bytes": 3975958,
+          "sha256": "26ebd760c6b0ad593cfb4e3153365e5063d01c7a3008f7f5847296ee10692fce",
+          "upstream": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/aaf2fe210c52ac2ff42e64f75b5f051759c61d50/runways.csv",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/ourairports-2026-11-22/ourairports-runways-2026-11-22.csv",
+          "name": "OurAirports runways.csv",
+          "version": "2026-11-22",
+          "packs": [
+            "ourairports"
+          ]
+        },
+        {
+          "file": "ourairports-navaids-2026-11-22.csv",
+          "bytes": 1524931,
+          "sha256": "d7292380662c33a95214945023ec0a5b13189599305fd18be739e167a97a9bd1",
+          "upstream": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/aaf2fe210c52ac2ff42e64f75b5f051759c61d50/navaids.csv",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/ourairports-2026-11-22/ourairports-navaids-2026-11-22.csv",
+          "name": "OurAirports navaids.csv",
+          "version": "2026-11-22",
+          "packs": [
+            "ourairports"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "gnis-domestic-names-2026-11-02",
+      "title": "GNIS Domestic Names, national file (pipe-separated text), published 2026-11-02",
+      "publisher": "US Geological Survey, for the US Board on Geographic Names",
+      "page": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+      "licence": "Public domain (US government work)",
+      "credit": "US names: USGS GNIS",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md",
+        "DomesticNames_National_Text.xml"
+      ],
+      "files": [
+        {
+          "file": "DomesticNames_National_Text-2026-11-02.zip",
+          "bytes": 45930630,
+          "sha256": "1ccd7aaa8f50ba7e2340e131bce815154e6c8288df72bbff01e0e99033ac9acd",
+          "upstream": "https://prd-tnm.s3.amazonaws.com/StagedProducts/GeographicNames/DomesticNames/DomesticNames_National_Text.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gnis-domestic-names-2026-11-02/DomesticNames_National_Text-2026-11-02.zip",
+          "name": "GNIS Domestic Names, national file (USGS)",
+          "version": "2026-11-02",
+          "packs": [
+            "names"
+          ]
+        }
+      ]
     }
   ]
 }

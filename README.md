@@ -38,6 +38,11 @@ to it. The built packs are in
 | [`egm96-15min`](sources/egm96-15min/SOURCE.md) | EGM96 geoid, 15′ (PROJ) | Public domain |
 | [`uk-os-osgm15-ostn15`](sources/uk-os-osgm15-ostn15/SOURCE.md) | OSGM15 geoid and OSTN15 (PROJ) | BSD-2-Clause |
 | [`vmap0-5.0`](sources/vmap0-5.0/SOURCE.md) | Vector Map Level 0, edition 5 | US government work; ESRI's features non-commercial only |
+| [`naturalearth-10m-vectors-5.1.2`](sources/naturalearth-10m-vectors-5.1.2/SOURCE.md) | Natural Earth rivers, lakes, places, roads, railways, airports, ports, time zones, state borders, peaks | Public domain |
+| [`naturalearth-10m-rasters-2.0.0`](sources/naturalearth-10m-rasters-2.0.0/SOURCE.md) | Natural Earth raster maps (relief, hypsometric, shaded relief) | Public domain |
+| [`blackmarble-3km-2012-2016`](sources/blackmarble-3km-2012-2016/SOURCE.md) | Black Marble, the Earth at night, 2012 and 2016 | Public domain (NASA) |
+| [`ourairports-2026-11-22`](sources/ourairports-2026-11-22/SOURCE.md) | OurAirports airports, runways, navaids | Public domain (the Unlicense) |
+| [`gnis-domestic-names-2026-11-02`](sources/gnis-domestic-names-2026-11-02/SOURCE.md) | US place and feature names (USGS GNIS) | Public domain |
 
 **Using the data yourself**: each file is under its own terms, given in its
 `SOURCE.md`, not under Terra Soar's licence. Mostly they are public domain
@@ -56,11 +61,13 @@ A new pack, or a new version of a source, follows Terra Soar's
 2. Check that its licence or terms allow it to be redistributed. A file
    whose terms don't allow that can't be kept here, and so can't be a
    pack's source.
-3. Create the release `<dataset>-<version>` here, with the file and its
-   licence and terms files attached:
-   `gh release create <tag> --repo marutan/terrasoar-packs-sources <files>`.
-   Add `sources/<tag>/` (its `SOURCE.md` and the same licence and terms
-   files) and its entry in `sources.json`, and commit them.
+3. Describe the release in a JSON file (see `tools/add_release.py`) and
+   run `tools/add_release.py <release.json> --data <downloads> --configs
+   <terrasoar>/tools/packager/packs`: it checks each file against the
+   configurations, writes `sources/<tag>/` (`SOURCE.md` and the licence and
+   terms files) and its entry in `sources.json`, and prints the `gh release
+   create` command that uploads the files with them. Commit, push, and run
+   that command.
 4. In Terra Soar, add `"mirror"` to the configuration and build as usual.
 
 A file here is never replaced: a changed upstream file is a new version,
