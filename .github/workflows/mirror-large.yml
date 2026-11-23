@@ -1,0 +1,62 @@
+# Downloads a source too large for a release asset (over 2 GB, such as
+# GEBCO's grid) on a GitHub runner, and attaches it to an existing
+# release in parts: <file>.part00, .part01, …, with <file>.sha256.
+# Terra Soar's fetch_sources.py joins the parts and checks the whole
+# file against the SHA-256 its pack configuration pins ("parts").
+#
+# Run by hand (Actions → Mirror a large source → Run workflow) after
+# creating the release with the source's licence files.
+name: Mirror a large source
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Where the file is published (upstream URL)"
+        required: true
+      file:
+        description: "The name it is kept under"
+        required: true
+      release:
+        description: "The release to attach the parts to (must exist)"
+        required: true
+      part_bytes:
+        description: "Bytes per part (under 2 GB)"
+        default: "1900000000"
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      URL: ${{ inputs.url }}
+      FILE: ${{ inputs.file }}
+      RELEASE: ${{ inputs.release }}
+      PART_BYTES: ${{ inputs.part_bytes }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check the inputs
+        run: |
+          case "$FILE" in */*|.*|"") echo "Bad file name: $FILE"; exit 1;; esac
+          case "$PART_BYTES" in *[!0-9]*|"") echo "Bad part size"; exit 1;; esac
+          test "$PART_BYTES" -lt 2000000000
+          gh release view "$RELEASE" --repo "$GITHUB_REPOSITORY" > /dev/null
+
+      - name: Download
+        run: |
+          curl -fL --retry 5 --retry-delay 30 -A terrasoar-fetch-sources \
+            -o "$FILE" "$URL"
+          sha256sum "$FILE" | tee "$FILE.sha256"
+          echo "$FILE: $(stat -c %s "$FILE") bytes, SHA-256 $(cut -d' ' -f1 "$FILE.sha256")" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Split and upload
+        run: |
+          split -b "$PART_BYTES" -d -a 2 "$FILE" "$FILE.part"
+          rm "$FILE"
+          ls -l "$FILE".part*
+          gh release upload "$RELEASE" --repo "$GITHUB_REPOSITORY" --clobber \
+            "$FILE".part* "$FILE.sha256"
+          ls "$FILE".part* | sed 's/^/uploaded /' >> "$GITHUB_STEP_SUMMARY"
