@@ -43,6 +43,9 @@ to it. The built packs are in
 | [`blackmarble-3km-2012-2016`](sources/blackmarble-3km-2012-2016/SOURCE.md) | Black Marble, the Earth at night, 2012 and 2016 | Public domain (NASA) |
 | [`ourairports-2026-11-22`](sources/ourairports-2026-11-22/SOURCE.md) | OurAirports airports, runways, navaids | Public domain (the Unlicense) |
 | [`gnis-domestic-names-2026-11-02`](sources/gnis-domestic-names-2026-11-02/SOURCE.md) | US place and feature names (USGS GNIS) | Public domain |
+| [`gns-feature-classes-2026-09-03`](sources/gns-feature-classes-2026-09-03/SOURCE.md) | World place and feature names (NGA GNS) | Public domain (US government work) |
+| [`etopo-2022-v1-30s-surface`](sources/etopo-2022-v1-30s-surface/SOURCE.md) | ETOPO 2022 relief, 30″ | CC0-1.0 (NOAA) |
+| [`gebco-2026`](sources/gebco-2026/SOURCE.md) | GEBCO 2026 grid, 15″ (in three parts) | Public domain (GEBCO) |
 
 **Using the data yourself**: each file is under its own terms, given in its
 `SOURCE.md`, not under Terra Soar's licence. Mostly they are public domain
@@ -69,6 +72,13 @@ A new pack, or a new version of a source, follows Terra Soar's
    create` command that uploads the files with them. Commit, push, and run
    that command.
 4. In Terra Soar, add `"mirror"` to the configuration and build as usual.
+
+A file larger than a release asset may be (2 GB) is kept in parts,
+`<file>.part00`, `.part01`, …: create its release with the licence files,
+then run the **Mirror a large source** workflow (Actions), which downloads
+the file on a GitHub runner, splits it and attaches the parts with its
+SHA-256. Terra Soar's configuration gives `"parts"`, and `fetch_sources.py`
+joins them and checks the whole file.
 
 A file here is never replaced: a changed upstream file is a new version,
 and gets a new release.

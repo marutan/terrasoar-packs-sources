@@ -82,11 +82,15 @@ def main(argv):
         mirror = f"https://github.com/{REPOSITORY}/releases/download/{tag}/{name}"
         if source.get("mirror") != mirror:
             sys.exit(f"{name}: the configuration's mirror is not {mirror}")
-        entries.append({
+        entry = {
             "file": name, "bytes": os.path.getsize(path), "sha256": digest,
             "upstream": source["url"], "mirror": mirror,
             "name": source["name"], "version": source["version"],
-            "packs": sorted(packs)})
+            "packs": sorted(packs)}
+        if source.get("parts"):
+            # Larger than a release asset may be: <file>.part00, … joined.
+            entry["parts"] = source["parts"]
+        entries.append(entry)
     directory = os.path.join(ROOT, "sources", tag)
     os.makedirs(directory, exist_ok=True)
     licence_names = []
@@ -111,7 +115,10 @@ def main(argv):
         "| File | Bytes | SHA-256 | Downloaded from | Used by |",
         "| --- | --- | --- | --- | --- |"]
     for e in entries:
-        lines.append(f"| `{e['file']}` | {e['bytes']} | `{e['sha256']}` | "
+        kept = (f"`{e['file']}` (in {e['parts']} parts, `.part00` to "
+                f"`.part{e['parts'] - 1:02d}`)" if e.get("parts")
+                else f"`{e['file']}`")
+        lines.append(f"| {kept} | {e['bytes']} | `{e['sha256']}` | "
                      f"{e['upstream']} | "
                      + ", ".join(f"`{p}`" for p in e["packs"]) + " |")
     with open(os.path.join(directory, "SOURCE.md"), "w", encoding="utf-8") as out:
@@ -128,7 +135,10 @@ def main(argv):
     catalogue["releases"] = releases
     with open(catalogue_path, "w", encoding="utf-8") as out:
         out.write(json.dumps(catalogue, indent=2, ensure_ascii=False) + "\n")
-    assets = [os.path.join(args.data, n) for n in meta["files"]] + \
+    # Files kept in parts are uploaded by the "Mirror a large source"
+    # workflow, not by this command.
+    assets = [os.path.join(args.data, e["file"]) for e in entries
+              if not e.get("parts")] + \
         [os.path.join(directory, n) for n in licence_names + ["SOURCE.md"]]
     notes = (f"{meta['title']}.\n\nLicence: {meta['licence']}. Credit: "
              f"\"{meta['credit']}\".\n\nSee sources/{tag}/SOURCE.md for where "

@@ -755,6 +755,128 @@
           ]
         }
       ]
+    },
+    {
+      "release": "gns-feature-classes-2026-09-03",
+      "title": "GEOnet Names Server (GNS) feature class files of 2026-09-03: Populated Places, Hypsographic, Hydrographic and Undersea (tab-separated text in zips)",
+      "publisher": "US National Geospatial-Intelligence Agency, for the US Board on Geographic Names",
+      "page": "https://geonames.nga.mil/geonames/GNSData/",
+      "licence": "Public domain (US government work); NGA's disclaimer applies",
+      "credit": "Names: NGA GNS",
+      "retrieved": "2026-11-22",
+      "licenceFiles": [
+        "TERMS.md",
+        "disclaimer.txt",
+        "GNS_User_Guide.txt"
+      ],
+      "files": [
+        {
+          "file": "gns-Populated_Places-2026-09-03.zip",
+          "bytes": 398321956,
+          "sha256": "d5d35d2afe119b8b46ab2c3c30e3d78dc68ecd121d9b53a419fd594986495819",
+          "upstream": "https://geonames.nga.mil/geonames/GNSData/fc_files/Populated_Places.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gns-feature-classes-2026-09-03/gns-Populated_Places-2026-09-03.zip",
+          "name": "GEOnet Names Server, feature class Populated_Places (NGA)",
+          "version": "2026-09-03",
+          "packs": [
+            "names"
+          ]
+        },
+        {
+          "file": "gns-Hypsographic-2026-09-03.zip",
+          "bytes": 98490422,
+          "sha256": "d395834fb3c03525a7a5b1c78466d68e902b4eb38d675b56b5582bbc5a10d090",
+          "upstream": "https://geonames.nga.mil/geonames/GNSData/fc_files/Hypsographic.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gns-feature-classes-2026-09-03/gns-Hypsographic-2026-09-03.zip",
+          "name": "GEOnet Names Server, feature class Hypsographic (NGA)",
+          "version": "2026-09-03",
+          "packs": [
+            "names"
+          ]
+        },
+        {
+          "file": "gns-Hydrographic-2026-09-03.zip",
+          "bytes": 128117251,
+          "sha256": "604f68abbf40cdab2bd01a4bea36af136ebf5802368fd169e07e474a6d983ac8",
+          "upstream": "https://geonames.nga.mil/geonames/GNSData/fc_files/Hydrographic.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gns-feature-classes-2026-09-03/gns-Hydrographic-2026-09-03.zip",
+          "name": "GEOnet Names Server, feature class Hydrographic (NGA)",
+          "version": "2026-09-03",
+          "packs": [
+            "names"
+          ]
+        },
+        {
+          "file": "gns-Undersea-2026-09-03.zip",
+          "bytes": 1248509,
+          "sha256": "91e2389673e3e621d29c4b4d16327e8b2dca5ffd71ed6e39f2be7116c9681ebe",
+          "upstream": "https://geonames.nga.mil/geonames/GNSData/fc_files/Undersea.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gns-feature-classes-2026-09-03/gns-Undersea-2026-09-03.zip",
+          "name": "GEOnet Names Server, feature class Undersea (NGA)",
+          "version": "2026-09-03",
+          "packs": [
+            "names"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "etopo-2022-v1-30s-surface",
+      "title": "ETOPO 2022 Global Relief Model, version 1, 30 arc-second, surface elevation (GeoTIFF)",
+      "publisher": "NOAA National Centers for Environmental Information",
+      "page": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+      "licence": "CC0-1.0 (NOAA)",
+      "credit": "Elevation: ETOPO 2022, NOAA NCEI",
+      "retrieved": "2026-11-23",
+      "licenceFiles": [
+        "TERMS.md"
+      ],
+      "files": [
+        {
+          "file": "ETOPO_2022_v1_30s_N90W180_surface.tif",
+          "bytes": 1585813987,
+          "sha256": "8630abc401cc6bdd30b507a68d3eb9eda5b65f5636f7199e4b1eefd476b5a9e2",
+          "upstream": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/30s/30s_surface_elev_gtif/ETOPO_2022_v1_30s_N90W180_surface.tif",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/etopo-2022-v1-30s-surface/ETOPO_2022_v1_30s_N90W180_surface.tif",
+          "name": "ETOPO 2022 Global Relief Model, 30 arc-second, surface elevation",
+          "version": "2022 v1",
+          "packs": [
+            "elevation-etopo-30s"
+          ]
+        }
+      ]
+    },
+    {
+      "release": "gebco-2026",
+      "title": "The GEBCO_2026 Grid, ice surface elevation, Data GeoTIFF: a 15 arc-second terrain model for ocean and land, as eight 90° tiles in one zip",
+      "publisher": "GEBCO Compilation Group (IHO and IOC), distributed by the British Oceanographic Data Centre",
+      "page": "https://www.gebco.net/data-products/gridded-bathymetry-data",
+      "licence": "Public domain (GEBCO)",
+      "credit": "GEBCO Compilation Group (2026) GEBCO 2026 Grid",
+      "retrieved": "2026-11-23",
+      "licenceFiles": [
+        "TERMS.md",
+        "GEBCO_Grid_terms_of_use.pdf",
+        "GEBCO_Grid_documentation.pdf"
+      ],
+      "files": [
+        {
+          "file": "gebco_2026_geotiff.zip",
+          "bytes": 4241629269,
+          "sha256": "39bb6eb45a785101da606749a00cf0ec3217f32160d25859b48fd5db9c6d9368",
+          "upstream": "https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2026/ice_surface_elevation/geotiff/gebco_2026_geotiff.zip",
+          "mirror": "https://github.com/marutan/terrasoar-packs-sources/releases/download/gebco-2026/gebco_2026_geotiff.zip",
+          "name": "The GEBCO_2026 Grid, ice surface elevation, Data GeoTIFF",
+          "version": "2026",
+          "packs": [
+            "gebco-0-e90",
+            "gebco-e90-e180",
+            "gebco-w180-w90",
+            "gebco-w90-0"
+          ],
+          "parts": 3
+        }
+      ]
     }
   ]
 }
